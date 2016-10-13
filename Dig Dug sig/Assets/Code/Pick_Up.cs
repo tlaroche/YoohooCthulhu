@@ -13,8 +13,8 @@ public class Pick_Up : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D hit)
     {
-        if()
-        gameObject.SetActive(false);
+        if(hit.tag != "Biomatter")
+            gameObject.SetActive(false);
     }
 	
 	// Update is called once per frame

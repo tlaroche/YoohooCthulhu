@@ -87,6 +87,7 @@
 -define:ENABLE_VSTU
 Assets/Code/Acid_Pit.cs
 Assets/Code/Biomatter.cs
+Assets/Code/Boom.cs
 Assets/Code/CameraTrack.cs
 Assets/Code/Character.cs
 Assets/Code/Dash.cs
@@ -99,5 +100,6 @@ Assets/Code/Rock.cs
 Assets/Code/Spawner.cs
 Assets/Code/TNT.cs
 Assets/Code/UI.cs
+Assets/DirtBubble.cs
 -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"

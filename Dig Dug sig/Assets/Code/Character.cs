@@ -11,9 +11,9 @@ public class Character : MonoBehaviour {
     public int distanceSpawn;
     public int health = 3;
     public int damageMod = 1;
-    public int TNT=0;
-    public int Dash=0;
-    public int Biomatter=0;
+    public int TNT=3;
+    public int Dash=3;
+    public int Biomatter=3;
 
     // Use this for initialization
     void Start ()

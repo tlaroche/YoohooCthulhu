@@ -4,6 +4,7 @@ using System.Collections;
 public class Item_Use : MonoBehaviour {
 
     public GameObject Player;
+    public GameObject[] Items = new GameObject[2];
     private Character PlayerItem;
 
     // Use this for initialization
@@ -14,25 +15,27 @@ public class Item_Use : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	    if(Input.GetKey("1"))
+	    if(Input.GetKeyDown(KeyCode.Alpha1))
         {
             PlayerItem.TNT--;
             Tnt();
         }
-        else if(Input.GetKey("2"))
+        else if(Input.GetKeyDown(KeyCode.Alpha2))
         {
             PlayerItem.Dash--;
+            Dash();
 
         }
-        else if(Input.GetKey("3"))
+        else if(Input.GetKeyDown(KeyCode.Alpha3))
         {
             PlayerItem.Biomatter--;
+            Biomatter();
         }
 	}
 
     void Tnt()
     {
-        
+        Instantiate(Items[1], gameObject.transform.position, Quaternion.identity);
     }
 
     void Dash()
@@ -45,7 +48,7 @@ public class Item_Use : MonoBehaviour {
 
     void Biomatter()
     {
-        
+        Instantiate(Items[0], gameObject.transform.position, Quaternion.identity);
     }
 
     IEnumerator Wait()

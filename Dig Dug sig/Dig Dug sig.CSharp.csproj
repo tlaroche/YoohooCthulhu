@@ -69,12 +69,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Boom.cs" />
     <Compile Include="Assets\Code\Acid_Pit.cs" />
     <Compile Include="Assets\Code\Biomatter.cs" />
+    <Compile Include="Assets\Code\Boom.cs" />
     <Compile Include="Assets\Code\CameraTrack.cs" />
     <Compile Include="Assets\Code\Character.cs" />
     <Compile Include="Assets\Code\Dash.cs" />
+    <Compile Include="Assets\Code\DirtBubble.cs" />
     <Compile Include="Assets\Code\Dirt_Pocket.cs" />
     <Compile Include="Assets\Code\Gas_Pocket.cs" />
     <Compile Include="Assets\Code\Item_Use.cs" />

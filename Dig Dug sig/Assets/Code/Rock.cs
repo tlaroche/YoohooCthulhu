@@ -20,7 +20,7 @@ public class Rock : MonoBehaviour {
     {
         if (Character.direction == "Down")
         {
-            Character.direction = "Left";
+            Character.direction = "Right";
         }
         else if (Character.direction == "Left" || Character.direction == "Right")
         {

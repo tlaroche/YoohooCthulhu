@@ -7,7 +7,7 @@ public class Spawner : MonoBehaviour {
     // Use this for initialization
     void Start () {
         player = GameObject.Find("Player");
-        Playerhealth = Player.GetComponent<Character>();
+        Playerhealth = player.GetComponent<Character>();
     }
 	
 	// Update is called once per frame

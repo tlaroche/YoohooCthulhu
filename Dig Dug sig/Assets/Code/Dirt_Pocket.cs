@@ -19,12 +19,14 @@ public class Dirt_Pocket : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D hit)
     {
         FogRender.enabled = true;
+        PlayerFog.SetActive(true);
         StartCoroutine(Wait());
-        gameObject.SetActive(false);
+        PlayerFog.SetActive(false);
     }
     IEnumerator Wait()
     {
         yield return new WaitForSeconds(10f);
         FogRender.enabled = false;
+        gameObject.SetActive(false);
     }
 }

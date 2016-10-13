@@ -85,18 +85,20 @@
 -define:UNITY_EDITOR_WIN
 -define:UNITY_TEAM_LICENSE
 -define:ENABLE_VSTU
+Assets/Boom.cs
 Assets/Code/Acid_Pit.cs
 Assets/Code/Biomatter.cs
 Assets/Code/CameraTrack.cs
 Assets/Code/Character.cs
+Assets/Code/Dash.cs
 Assets/Code/Dirt_Pocket.cs
 Assets/Code/Gas_Pocket.cs
+Assets/Code/Item_Use.cs
 Assets/Code/P_Up_Spawner.cs
 Assets/Code/Pick_Up.cs
 Assets/Code/Rock.cs
 Assets/Code/Spawner.cs
+Assets/Code/TNT.cs
 Assets/Code/UI.cs
-Assets/Dash.cs
-Assets/TNT.cs
 -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
