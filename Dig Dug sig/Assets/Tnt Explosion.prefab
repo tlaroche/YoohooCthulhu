@@ -24,7 +24,7 @@ GameObject:
   - 61: {fileID: 61000012123318732}
   m_Layer: 0
   m_Name: Tnt Explosion
-  m_TagString: Untagged
+  m_TagString: Explosion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64,9 +64,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000013938812864}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 063f47d575171734caa4dc2ef3a53be5, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d66b82298f5f7243b915fb32631cd98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 0}
 --- !u!212 &212000014135947340
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -1,32 +1,29 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Dirt_Pocket : MonoBehaviour {
+public class Dirt_Pocket : MonoBehaviour
+{
 
-    public GameObject PlayerFog;
-    private Renderer FogRender;
+    public GameObject Player;
+    private Character Playerhealth;
+    private int fogTime = 0;
 
     // Use this for initialization
-    void Start () {
-        PlayerFog = GameObject.FindGameObjectWithTag("DirtBaby");
-        FogRender = PlayerFog.GetComponent<Renderer>();
+    void Start()
+    {
+        Player = GameObject.FindGameObjectWithTag("Player");
+        Playerhealth = Player.GetComponent<Character>();
     }
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
     void OnTriggerEnter2D(Collider2D hit)
     {
-        FogRender.enabled = true;
-        PlayerFog.SetActive(true);
-        StartCoroutine(Wait());
-        PlayerFog.SetActive(false);
-    }
-    IEnumerator Wait()
-    {
-        yield return new WaitForSeconds(10f);
-        FogRender.enabled = false;
+        //When current time = fogEnd the fog disappears in Character.cs
+        Character.fogEnd = (int)Character.time + 5;
         gameObject.SetActive(false);
     }
 }
