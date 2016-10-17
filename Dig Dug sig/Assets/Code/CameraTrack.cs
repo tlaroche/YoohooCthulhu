@@ -11,7 +11,7 @@ public class CameraTrack : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         Vector3 pos = cameraTrack.position;
         pos.z = transform.position.z;

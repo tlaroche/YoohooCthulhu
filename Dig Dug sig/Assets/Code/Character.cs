@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections;
-using System.Diagnostics;
 
 public class Character : MonoBehaviour {
 
@@ -16,29 +15,9 @@ public class Character : MonoBehaviour {
     public int Dash=3;
     public int Biomatter=3;
 
-    public Stopwatch Timer;
-    public static double time;
-
-    public static int fogEnd = 0;
-    public GameObject PlayerFog;
-    private Renderer FogRender;
-
-    GameObject explosion;
-
     // Use this for initialization
     void Start ()
     {
-        Timer = new Stopwatch();
-        Timer.Start();
-        time = 0;
-
-        PlayerFog = GameObject.FindGameObjectWithTag("DirtBaby");
-        FogRender = PlayerFog.GetComponent<Renderer>();
-        FogRender.enabled = false;
-
-        explosion = GameObject.FindGameObjectWithTag("Explosion");
-        //Give TNT for testing purposes
-        TNT = 1;
     }
 
 	// Update is called once per frame
@@ -85,38 +64,6 @@ public class Character : MonoBehaviour {
                 transform.Translate(Vector3.right * Time.deltaTime * speed);
             }
         }
-
-        //Character timer for other stuff
-        time = Timer.Elapsed.TotalSeconds;
-
-        //New Fog
-        if (time <= fogEnd)
-        {
-            FogRender.enabled = true;
-        }
-        else
-        {
-            FogRender.enabled = false;
-        }
-
-        // Press X to boom for now - this will be changed to mobile control really soon
-         if ((TNT > 0) && (Input.GetKey(KeyCode.X)))
-            {
-                if (direction == "Down")
-                {
-                    Instantiate(explosion, new Vector3(Character.playerx, Character.playery - 3, 0), Quaternion.identity);
-                }
-                if (direction == "Left")
-                {
-                    Instantiate(explosion, new Vector3(Character.playerx - 3, Character.playery, 0), Quaternion.identity);
-                }
-                if (direction == "Right")
-                {
-                    Instantiate(explosion, new Vector3(Character.playerx + 3, Character.playery, 0), Quaternion.identity);
-                }
-                TNT--;
-            }
-
     }
 
     void FixedUpdate()

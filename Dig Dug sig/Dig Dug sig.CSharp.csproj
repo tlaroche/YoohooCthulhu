@@ -61,9 +61,6 @@
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.Cecil">
-      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
@@ -72,9 +69,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Boom.cs" />
     <Compile Include="Assets\Code\Acid_Pit.cs" />
     <Compile Include="Assets\Code\Biomatter.cs" />
+    <Compile Include="Assets\Code\Boom.cs" />
     <Compile Include="Assets\Code\CameraTrack.cs" />
     <Compile Include="Assets\Code\Character.cs" />
     <Compile Include="Assets\Code\Dash.cs" />
@@ -86,6 +83,7 @@
     <Compile Include="Assets\Code\Pick_Up.cs" />
     <Compile Include="Assets\Code\Rock.cs" />
     <Compile Include="Assets\Code\Spawner.cs" />
+    <Compile Include="Assets\Code\StartControllerScript.cs" />
     <Compile Include="Assets\Code\TNT.cs" />
     <Compile Include="Assets\Code\UI.cs" />
   </ItemGroup>
