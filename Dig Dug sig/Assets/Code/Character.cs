@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Diagnostics;
 
 public class Character : MonoBehaviour {
 
@@ -14,15 +15,33 @@ public class Character : MonoBehaviour {
     public int TNT=3;
     public int Dash=3;
     public int Biomatter=3;
+    public Stopwatch Timer;
+    public static double time;
+    public static int fogEnd = 0;
+    public static int acidEnd = 0;
+    public GameObject PlayerFog;
+    private Renderer FogRender;
+    GameObject explosion;
+
 
     // Use this for initialization
     void Start ()
     {
+        Timer = new Stopwatch();
+        Timer.Start();
+        time = 0;
+        PlayerFog = GameObject.FindGameObjectWithTag("DirtBaby");
+        FogRender = PlayerFog.GetComponent<Renderer>();
+        FogRender.enabled = false;
+        explosion = GameObject.FindGameObjectWithTag("DirtBaby");
+        //Give TNT for testing purposes
+        TNT = 1;
     }
 
 	// Update is called once per frame
 	void Update ()
     {
+        time = Timer.Elapsed.TotalSeconds;
         playerx = transform.position.x;
         playery = transform.position.y;
 
@@ -63,6 +82,40 @@ public class Character : MonoBehaviour {
             {
                 transform.Translate(Vector3.right * Time.deltaTime * speed);
             }
+        }
+        if (time <= fogEnd)
+        {
+            FogRender.enabled = true;
+        }
+        else
+        {
+            FogRender.enabled = false;
+        }
+        if (time <= acidEnd)
+        {
+            damageMod = 3;
+        }
+        else
+        {
+            damageMod = 1;
+        }
+
+        //Why you no? Shit stopped working
+        if ((TNT > 0) && (Input.GetKey(KeyCode.X)))
+        {
+            if (direction == "Down")
+            {
+                Instantiate(explosion, new Vector3(Character.playerx, Character.playery - 3, 0), Quaternion.identity);
+            }
+            if (direction == "Left")
+            {
+                Instantiate(explosion, new Vector3(Character.playerx - 3, Character.playery, 0), Quaternion.identity);
+            }
+            if (direction == "Right")
+            {
+                Instantiate(explosion, new Vector3(Character.playerx + 3, Character.playery, 0), Quaternion.identity);
+            }
+            TNT--;
         }
     }
 

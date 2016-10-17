@@ -2,13 +2,10 @@
 using System.Collections;
 
 public class Acid_Pit : MonoBehaviour {
-    public GameObject Player;
-    private Character Playerhealth;
+    private Character PlayerCharacter;
     // Use this for initialization
     void Start () {
-        Player = GameObject.FindGameObjectWithTag("Player");
-        Playerhealth = Player.GetComponent<Character>();
-        
+        PlayerCharacter = GameObject.FindGameObjectWithTag("Player").GetComponent<Character>();
     }
 	
 	// Update is called once per frame
@@ -18,13 +15,8 @@ public class Acid_Pit : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D hit)
     {
-        Playerhealth.damageMod = 3;
-        StartCoroutine(Wait());
+        //Seven Seconds of 3x damage
+        Character.acidEnd = (int)Character.time + 7;
         gameObject.SetActive(false);
-    }
-    IEnumerator Wait()
-    {
-        yield return new WaitForSeconds(7f);
-        Playerhealth.damageMod = 1;
     }
 }

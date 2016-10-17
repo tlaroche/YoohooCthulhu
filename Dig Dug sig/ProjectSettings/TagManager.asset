@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Biomatter
   - DirtBaby
+  - TntExplosion
   layers:
   - Default
   - TransparentFX
@@ -40,8 +41,20 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3421782931
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: PlayerLayer
+    uniqueID: 827800963
+    locked: 0
+  - name: Effects Layer
+    uniqueID: 1092095975
+    locked: 0
+  - name: UI
+    uniqueID: 4081771117
     locked: 0
   - name: Top
     uniqueID: 1519690227

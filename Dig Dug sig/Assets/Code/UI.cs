@@ -14,15 +14,11 @@ public class UI : MonoBehaviour {
         Player = GameObject.FindGameObjectWithTag("Player");
         Playerhealth = Player.GetComponent<Character>();
         Display = GetComponent<Text>();
-        Timer = new Stopwatch();
-        Timer.Start();
-        time = 0;
-       
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        time = (int)Timer.Elapsed.TotalSeconds;
+        time = (int)Character.time;
         Display.text = "Timer: " + time + "\tHealth: "+Playerhealth.health + "\tTNT: "+Playerhealth.TNT + "\tDash: " + Playerhealth.Dash + "\tBiomatter: " + Playerhealth.Biomatter;
 	}
 }

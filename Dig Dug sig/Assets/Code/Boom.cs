@@ -1,17 +1,29 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Boom : MonoBehaviour {
+public class Boom : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-        gameObject.transform.localScale+= new Vector3(100, 100, 0);
-        Destroy(gameObject, .5f);
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	    
-	}
+    public GameObject Player;
+    private Character Playertime;
+    private float tntTime = 0;
 
+    // Use this for initialization
+    void Start()
+    {
+        Player = GameObject.FindGameObjectWithTag("Player");
+        Playertime = Player.GetComponent<Character>();
+        tntTime = (float)Character.time + 1;
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (Character.time >= tntTime)
+        {
+            gameObject.SetActive(false);
+        }
+
+    }
 }
