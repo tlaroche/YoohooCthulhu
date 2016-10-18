@@ -25,7 +25,6 @@ public class Character : MonoBehaviour {
 
     public GameObject PlayerFog;
     private Renderer FogRender;
-    GameObject explosion;
 
     public Vector2 swipe = new Vector2();
 
@@ -38,7 +37,6 @@ public class Character : MonoBehaviour {
         PlayerFog = GameObject.FindGameObjectWithTag("DirtBaby");
         FogRender = PlayerFog.GetComponent<Renderer>();
         FogRender.enabled = false;
-        explosion = GameObject.FindGameObjectWithTag("DirtBaby");
         //Give TNT for testing purposes
         TNT = 1;
     }
@@ -128,22 +126,7 @@ public class Character : MonoBehaviour {
         }
 
         //Why you no? Shit stopped working
-        if ((TNT > 0) && (Input.GetKey(KeyCode.X)))
-        {
-            if (direction == "Down")
-            {
-                Instantiate(explosion, new Vector3(Character.playerx, Character.playery - 3, 0), Quaternion.identity);
-            }
-            if (direction == "Left")
-            {
-                Instantiate(explosion, new Vector3(Character.playerx - 3, Character.playery, 0), Quaternion.identity);
-            }
-            if (direction == "Right")
-            {
-                Instantiate(explosion, new Vector3(Character.playerx + 3, Character.playery, 0), Quaternion.identity);
-            }
-            TNT--;
-        }
+        
     }
 
     void FixedUpdate()
