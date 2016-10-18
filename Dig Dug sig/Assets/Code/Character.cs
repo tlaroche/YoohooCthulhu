@@ -6,23 +6,28 @@ public class Character : MonoBehaviour {
 
     public float speed = 5.5f;
     public CameraTrack follow;
+
     public static string direction = "";
     public static float playerx;
     public static float playery;
+
     public int distanceSpawn;
     public int health = 3;
     public int damageMod = 1;
     public int TNT=3;
     public int Dash=3;
     public int Biomatter=3;
+
     public Stopwatch Timer;
     public static double time;
     public static int fogEnd = 0;
     public static int acidEnd = 0;
+
     public GameObject PlayerFog;
     private Renderer FogRender;
     GameObject explosion;
 
+    public Vector2 swipe = new Vector2();
 
     // Use this for initialization
     void Start ()
@@ -45,17 +50,39 @@ public class Character : MonoBehaviour {
         playerx = transform.position.x;
         playery = transform.position.y;
 
-        if (Input.GetKey(KeyCode.LeftArrow) && direction != "Right")
+        //if (Input.GetKey(KeyCode.LeftArrow) && direction != "Right")
+        //{
+        //    direction = "Left";
+        //}
+        //else if (Input.GetKey(KeyCode.RightArrow) && direction != "Left")
+        //{
+        //    direction = "Right";
+        //}
+        //else if (Input.GetKey(KeyCode.DownArrow))
+        //{
+        //    direction = "Down";
+        //}
+        if (Input.touchCount > 0)
         {
-            direction = "Left";
-        }
-        else if (Input.GetKey(KeyCode.RightArrow) && direction != "Left")
-        {
-            direction = "Right";
-        }
-        else if (Input.GetKey(KeyCode.DownArrow))
-        {
-            direction = "Down";
+            swipe = Input.GetTouch(0).deltaPosition;
+            if (Mathf.Abs(swipe.x) > Mathf.Abs(swipe.y)+10)
+            {
+                if (swipe.x > 5)
+                {
+                    direction = "Right";
+                }
+                else if (swipe.x < -5)
+                {
+                    direction = "Left";
+                }
+            }
+            else if (Mathf.Abs(swipe.y)+10 > Mathf.Abs(swipe.x))
+            {
+                if (swipe.y < -5)
+                {
+                    direction = "Down";
+                }
+            }
         }
 
         //Move spawn stuff to main gamelogic script and make actual spawning stuff
