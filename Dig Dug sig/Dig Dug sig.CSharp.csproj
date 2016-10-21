@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Code\Acid_Pit.cs" />
+    <Compile Include="Assets\Code\BackButton.cs" />
     <Compile Include="Assets\Code\Biomatter.cs" />
     <Compile Include="Assets\Code\Boom.cs" />
     <Compile Include="Assets\Code\CameraTrack.cs" />
@@ -78,6 +79,7 @@
     <Compile Include="Assets\Code\DirtBubble.cs" />
     <Compile Include="Assets\Code\Dirt_Pocket.cs" />
     <Compile Include="Assets\Code\Gas_Pocket.cs" />
+    <Compile Include="Assets\Code\InputDetection.cs" />
     <Compile Include="Assets\Code\Item_Use.cs" />
     <Compile Include="Assets\Code\P_Up_Spawner.cs" />
     <Compile Include="Assets\Code\Pick_Up.cs" />
@@ -86,7 +88,8 @@
     <Compile Include="Assets\Code\StartControllerScript.cs" />
     <Compile Include="Assets\Code\TNT.cs" />
     <Compile Include="Assets\Code\UI.cs" />
-    <Compile Include="Assets\InputDetection.cs" />
+    <Compile Include="Assets\MenuManagement.cs" />
+    <Compile Include="Assets\Yes_Quit.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
