@@ -15,15 +15,7 @@ public class InputDetection : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.touchCount > 0)
-        {
-            position = Input.GetTouch(0).position;
-            if((Mathf.Abs(position.x - gameObject.transform.localPosition.x) >= 0 && Mathf.Abs(position.x - gameObject.transform.localPosition.x)< 1) 
-                       && Mathf.Abs(position.y - gameObject.transform.localPosition.y) >= 0 && Mathf.Abs(position.y - gameObject.transform.localPosition.y) < 1)
-            {
-                Debug.Log(gameObject.name);
-            }
-        }
+
 	}
 
     void OnMouseDown()

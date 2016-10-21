@@ -88,7 +88,11 @@
     <Compile Include="Assets\Code\StartControllerScript.cs" />
     <Compile Include="Assets\Code\TNT.cs" />
     <Compile Include="Assets\Code\UI.cs" />
+    <Compile Include="Assets\Help.cs" />
+    <Compile Include="Assets\HighScore.cs" />
     <Compile Include="Assets\MenuManagement.cs" />
+    <Compile Include="Assets\Options.cs" />
+    <Compile Include="Assets\Startbutton.cs" />
     <Compile Include="Assets\Yes_Quit.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />

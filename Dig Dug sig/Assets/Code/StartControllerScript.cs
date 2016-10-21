@@ -18,29 +18,29 @@ public class StartControllerScript : MonoBehaviour {
 
     void OnGUI()
     {
-        if (Camera.current.name == "Main Camera")
-        {
-            if (Selection == 0)
-            {
-                GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), Startmenu, ScaleMode.ScaleToFit);
-            }
-            else if (Selection == 1)
-            {
-                GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), OptionMenu, ScaleMode.ScaleToFit);
-            }
-            else if (Selection == 2)
-            {
-                GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), QuitMenu, ScaleMode.ScaleToFit);
-            }
-            else if (Selection == 3)
-            {
-                GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), HelpMenu, ScaleMode.ScaleToFit);
-            }
-            else if (Selection == 4)
-            {
-                GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), HighScoreScreen, ScaleMode.ScaleToFit);
-            }
-        }
+        //if (Camera.current.name == "Main Camera")
+        //{
+        //    if (Selection == 0)
+        //    {
+        //        GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), Startmenu, ScaleMode.ScaleToFit);
+        //    }
+        //    else if (Selection == 1)
+        //    {
+        //        GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), OptionMenu, ScaleMode.ScaleToFit);
+        //    }
+        //    else if (Selection == 2)
+        //    {
+        //        GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), QuitMenu, ScaleMode.ScaleToFit);
+        //    }
+        //    else if (Selection == 3)
+        //    {
+        //        GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), HelpMenu, ScaleMode.ScaleToFit);
+        //    }
+        //    else if (Selection == 4)
+        //    {
+        //        GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), HighScoreScreen, ScaleMode.ScaleToFit);
+        //    }
+        //}
     }
 
     // Update is called once per frame
