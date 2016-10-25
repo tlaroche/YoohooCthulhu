@@ -1,0 +1,563 @@
+fileFormatVersion: 2
+guid: 7699e444d00177b429f8a91e37efd4df
+timeCreated: 1477062823
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ButtonSpriteSheet2_0
+    21300002: ButtonSpriteSheet2_1
+    21300004: ButtonSpriteSheet2_2
+    21300006: ButtonSpriteSheet2_3
+    21300008: ButtonSpriteSheet2_4
+    21300010: ButtonSpriteSheet2_5
+    21300012: ButtonSpriteSheet2_6
+    21300014: ButtonSpriteSheet2_7
+    21300016: ButtonSpriteSheet2_8
+    21300018: ButtonSpriteSheet2_9
+    21300020: ButtonSpriteSheet2_10
+    21300022: ButtonSpriteSheet2_11
+    21300024: ButtonSpriteSheet2_12
+    21300026: ButtonSpriteSheet2_13
+    21300028: ButtonSpriteSheet2_14
+    21300030: ButtonSpriteSheet2_15
+    21300032: ButtonSpriteSheet2_16
+    21300034: ButtonSpriteSheet2_17
+    21300036: ButtonSpriteSheet2_18
+    21300038: ButtonSpriteSheet2_19
+    21300040: ButtonSpriteSheet2_20
+    21300042: ButtonSpriteSheet2_21
+    21300044: ButtonSpriteSheet2_22
+    21300046: ButtonSpriteSheet2_23
+    21300048: ButtonSpriteSheet2_24
+    21300050: ButtonSpriteSheet2_25
+    21300052: ButtonSpriteSheet2_26
+    21300054: ButtonSpriteSheet2_27
+    21300056: ButtonSpriteSheet2_28
+    21300058: ButtonSpriteSheet2_29
+    21300060: ButtonSpriteSheet2_30
+    21300062: ButtonSpriteSheet2_31
+    21300064: ButtonSpriteSheet2_32
+    21300066: ButtonSpriteSheet2_33
+    21300068: ButtonSpriteSheet2_34
+    21300070: ButtonSpriteSheet2_35
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_0
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1855
+        width: 299
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_1
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1942
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_2
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1855
+        width: 319
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_3
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1834
+        width: 985
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1834
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_5
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 1834
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_6
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 1834
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1548
+        width: 720
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_8
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1608
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_9
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1586
+        width: 985
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_10
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 1586
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_11
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1586
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_12
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 1586
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_13
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1294
+        width: 720
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_14
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1322
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_15
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1322
+        width: 985
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_16
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 1322
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_17
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 1322
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1060
+        width: 442
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_19
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1186
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_20
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1070
+        width: 985
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_21
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1070
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_22
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 1070
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_23
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 1070
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_24
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 812
+        width: 441
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_25
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 940
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_26
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 810
+        width: 985
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_27
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 810
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_28
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 810
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_29
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 810
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_30
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 545
+        width: 721
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_31
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 547
+        width: 720
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_32
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 291
+        width: 720
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_33
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 300
+        width: 441
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_34
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 428
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ButtonSpriteSheet2_35
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 35
+        width: 720
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
