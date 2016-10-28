@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Hazard_All : MonoBehaviour {
 
+    public GameObject exploding;
     public Character Character_Management;
     //public Animator Hazard_GasPocketAnimator;
     //public AnimationClip Hazard_GasPocketAnimationClip;
@@ -30,6 +31,7 @@ public class Hazard_All : MonoBehaviour {
             }
             else if (gameObject.tag == "GasPocket")
             {
+                Instantiate(exploding, transform.position, transform.rotation);
                 Character_Management.DealDamage();
                 gameObject.SetActive(false);
             }

@@ -74,7 +74,12 @@
     <Compile Include="Assets\Code\Buttons\Buttongame_PlotArmor.cs" />
     <Compile Include="Assets\Code\Buttons\Buttongame_TNT.cs" />
     <Compile Include="Assets\Code\Collectibles\Pickup_Collectibles.cs" />
+    <Compile Include="Assets\Code\Hazards\GasExplosionScript.cs" />
     <Compile Include="Assets\Code\Hazards\Hazard_All.cs" />
+    <Compile Include="Assets\Code\Hazards\InsanityPulse.cs" />
+    <Compile Include="Assets\Code\Hazards\MoleScript.cs" />
+    <Compile Include="Assets\Code\Hazards\Monster_All.cs" />
+    <Compile Include="Assets\Code\Hazards\TentacleActive.cs" />
     <Compile Include="Assets\Code\Infrastructure\CameraScripts.cs" />
     <Compile Include="Assets\Code\Infrastructure\Character.cs" />
     <Compile Include="Assets\Code\Infrastructure\Depth.cs" />

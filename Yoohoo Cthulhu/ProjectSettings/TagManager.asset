@@ -15,6 +15,10 @@ TagManager:
   - BioBomb
   - PlotArmor
   - TNTBoom
+  - Tentacle
+  - Maw
+  - Pulse
+  - Mole
   layers:
   - Default
   - TransparentFX

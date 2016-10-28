@@ -22,7 +22,6 @@ GameObject:
   - 212: {fileID: 212000012594742626}
   - 61: {fileID: 61000012960722672}
   - 114: {fileID: 114000011732695248}
-  - 95: {fileID: 95000013569860762}
   m_Layer: 0
   m_Name: Hazard_GasPocket 1
   m_TagString: GasPocket
@@ -57,23 +56,6 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 2.56, y: 2.56}
---- !u!95 &95000013569860762
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000013163120376}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fedee6f5585e5a34c8e938d911c8db7a, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114000011732695248
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -85,6 +67,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7b3c3b715e9019499f6722827ca6c43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  exploding: {fileID: 1000012951830524, guid: e7cfac4eb46c4bc4f91c737e63446e6a, type: 2}
   Character_Management: {fileID: 0}
 --- !u!212 &212000012594742626
 SpriteRenderer:

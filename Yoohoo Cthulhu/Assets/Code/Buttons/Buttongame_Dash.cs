@@ -17,13 +17,13 @@ public class Buttongame_Dash : MonoBehaviour {
 
     void OnMouseDown()
     {
-        Player_main.speed = 50.5f;
+        Player_main.speed = 100f;
         StartCoroutine(Wait());
     }
 
     IEnumerator Wait()
     {
-        yield return new WaitForSeconds(.5f);
+        yield return new WaitForSeconds(.1f);
         Player_main.speed = 5.5f;
     }
 }
