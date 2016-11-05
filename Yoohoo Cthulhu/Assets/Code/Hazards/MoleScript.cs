@@ -10,12 +10,17 @@ public class MoleScript : MonoBehaviour {
     public Vector3 Pos;
     int incrementsCrossed = 0;
     float incrementValue = 2.56F;
+    private AudioClip digSound;
+    private AudioSource moleSource;
+    private GameObject character;
 
 	// Use this for initialization
 	void Start () {
         distanceToTravel = Random.Range(8, 12);
         transform.rotation = Quaternion.Euler(0, 0, Random.Range(0, 4) * 90);
         previousEulerZ = transform.rotation.eulerAngles.z;
+        moleSource = GetComponent<AudioSource>();
+        character = GameObject.Find("Character");
     }
 	
 	// Update is called once per frame
@@ -33,6 +38,7 @@ public class MoleScript : MonoBehaviour {
             }
             else
             {
+                moleSource.PlayScheduled(0);
                 incrementsCrossed++;
                 Quaternion temp = transform.rotation;
 

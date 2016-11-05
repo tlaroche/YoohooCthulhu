@@ -61,6 +61,9 @@
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
@@ -80,6 +83,8 @@
     <Compile Include="Assets\Code\Hazards\MoleScript.cs" />
     <Compile Include="Assets\Code\Hazards\Monster_All.cs" />
     <Compile Include="Assets\Code\Hazards\TentacleActive.cs" />
+    <Compile Include="Assets\Code\Infrastructure\Background1Script.cs" />
+    <Compile Include="Assets\Code\Infrastructure\Background2Script.cs" />
     <Compile Include="Assets\Code\Infrastructure\CameraScripts.cs" />
     <Compile Include="Assets\Code\Infrastructure\Character.cs" />
     <Compile Include="Assets\Code\Infrastructure\Depth.cs" />
