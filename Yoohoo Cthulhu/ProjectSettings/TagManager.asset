@@ -19,6 +19,9 @@ TagManager:
   - Maw
   - Pulse
   - Mole
+  - SloMo
+  - TransmutationField
+  - TransmutationEffect
   layers:
   - Default
   - TransparentFX

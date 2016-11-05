@@ -37,6 +37,15 @@ public class Items_All : MonoBehaviour
                 Character_Management.damageMod = 0;
                 StartCoroutine(Wait());
             }
+            else if(gameObject.tag == "SloMo")
+            {
+                Time.timeScale = .5f;
+                Invoke("TimeScale", 5f);
+            }
+            else if(gameObject.tag == "TransmutationField")
+            {
+                Character_Management.transmutationExpire = 10;
+            }
             gameObject.SetActive(false);
         }
     }
@@ -45,5 +54,10 @@ public class Items_All : MonoBehaviour
     {
         yield return new WaitForSeconds(3f);
         Character_Management.damageMod = 1;
+    }
+
+    void TimeScale()
+    {
+        Time.timeScale = 1f;
     }
 }

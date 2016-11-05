@@ -11,7 +11,7 @@ public class Character : MonoBehaviour {
     public int dustExpire = 0;
     public int acidExpire = 0;
     public int dashExpire = 0;
-
+    public int transmutationExpire = 0;
     //Starting With Items for testing
     public int TNT = 3;
     public int Dash = 3;
@@ -86,5 +86,15 @@ public class Character : MonoBehaviour {
     public void DealDamage()
     {
         health = health - damageMod;
+    }
+
+    public void DustActive()
+    {
+
+    }
+
+    public void TransmutationActive()
+    {
+
     }
 }

@@ -14,7 +14,7 @@ public class Depth : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        CurrentDepth.text = ((int)Mathf.Abs(CharacterScript_Manager.transform.position.y)).ToString();
+        CurrentDepth.text = "Depth: " + ((int)Mathf.Abs(CharacterScript_Manager.transform.position.y)).ToString();
         if((int)Mathf.Abs(CharacterScript_Manager.transform.position.y) >= 900)
         {
             SceneManager.LoadScene(2);

@@ -68,6 +68,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Score_main: {fileID: 0}
+  Collectibles:
+  - {fileID: 1000012464206988}
+  - {fileID: 1000013632943648, guid: dc6e4f930cc78c3428615f63646e7800, type: 2}
+  - {fileID: 1000012391900322, guid: 43e76a925ad400644ace087895952532, type: 2}
 --- !u!212 &212000013644350850
 SpriteRenderer:
   m_ObjectHideFlags: 1

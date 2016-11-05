@@ -18,6 +18,6 @@ public class Timer : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         time = TimeCounter.Elapsed.TotalSeconds;
-        Display.text = ((int)time).ToString();
+        Display.text = "Time: "+ ((int)time).ToString();
     }
 }

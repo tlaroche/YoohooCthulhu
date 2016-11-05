@@ -4,6 +4,8 @@ using System.Collections;
 public class Pickup_Collectibles : MonoBehaviour {
 
     public Score Score_main;
+    public GameObject[] Collectibles = new GameObject[3];
+    
     // Use this for initialization
     void Start () {
         Score_main = GameObject.Find("Canvas").GetComponent<Score>();
@@ -27,8 +29,20 @@ public class Pickup_Collectibles : MonoBehaviour {
             }
             gameObject.SetActive(false);
         }
-        else
+        else if(hit.tag == "TransmutationEffect")
         {
+            if (gameObject.tag == "Nougat")
+            {
+                Instantiate(Collectibles[1],transform.position,Quaternion.identity);
+            }
+            else if (gameObject.tag == "Saphire")
+            {
+                Instantiate(Collectibles[2], transform.position, Quaternion.identity);
+            }
+            else if (gameObject.tag == "Diamond")
+            {
+                Instantiate(Collectibles[2], transform.position, Quaternion.identity);
+            }
             gameObject.SetActive(false);
         }
     }

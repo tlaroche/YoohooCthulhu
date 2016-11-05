@@ -68,6 +68,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78e331013c17e01459070692df2c6278, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tunnels:
+  - {fileID: 1000011458817690, guid: e7d98ca9332e7794293d4c63cd33d148, type: 2}
+  - {fileID: 1000013228159716, guid: 60e46066c6912db46b5c02bfe06feab0, type: 2}
+  - {fileID: 1000011126864210, guid: ba9b9a904cb6b3f4ca81dfdaf33aa4dc, type: 2}
+  - {fileID: 1000011465453142, guid: 615aab0ad927dc04392c491c14772ae3, type: 2}
+  - {fileID: 1000011156744996, guid: 603bc6ace20fc4c4789bc38d09d925c9, type: 2}
+  - {fileID: 1000012364889688, guid: ff91a1a5790f6ea46b1a6aea9f65c070, type: 2}
+  previousEulerZ: 0
 --- !u!114 &114000014011611128
 MonoBehaviour:
   m_ObjectHideFlags: 1
